@@ -41,3 +41,10 @@ class Staff(BaseModel):
 
 	def __str__(self):
 		return self.name
+	objects = StaffManager()
+
+	def agency(self):
+		if self.employer_content_type.model == 'agency':
+			return self.employer
+		else:
+			return self.employer.agency
