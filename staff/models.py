@@ -37,7 +37,7 @@ class Staff(BaseModel):
 
 
 	class Meta:
-		db_table = 'staffs'
+		db_table = 'staff'
 
 	def __str__(self):
 		return self.name
