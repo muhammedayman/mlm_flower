@@ -44,11 +44,18 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'staff',
+    'billings',
+    'cart',
+    'expense',
     'jasmine',
     'miscapp',
+    'orders',
+    'product',
     'referral',
-    'sampletest'
+    'sampletest',
+    'staff',
+    'trackings'
+
 ]
 
 MIDDLEWARE = [
