@@ -51,7 +51,7 @@ pexpect==4.8.0
 pickle-mixin==1.0.2
 pickleshare==0.7.5
 Pillow==7.1.1
-pipenv==2018.11.26
+pipenv==2022.1.8
 prompt-toolkit==3.0.4
 ptyprocess==0.6.0
 Pygments==2.6.1
